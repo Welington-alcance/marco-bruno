@@ -1,0 +1,40 @@
+.flex{ display: flex;}
+.flex-col{ display: flex; flex-direction: column;}
+.flex-justify-center{justify-content: center;}
+.flex-justify-between{justify-content: space-between;}
+.flex-justify-around{justify-content: space-around;}
+.flex-align{align-items: center;}
+.flex-center{justify-content: center; align-items: center;}
+.gap-md{gap: 1.8rem}
+
+.padding-lateral-md{padding: 0 1.8rem;}
+.padding-bottom-md{padding-bottom: var(--space-md);}
+
+.mega-menu__nav--span{
+    width: var(--space-sm);
+    height: var(--space-sm);
+    background-color: var(--color-primary);
+}
+
+.btn-base{
+    font-family: var(--font-secondary);
+    background: var(--color-bg-btn);
+    width: 15rem;
+    padding: var(--space-md) 0;
+    text-align: center;
+    font-size: var(--font-md);
+    box-shadow: 0.4rem 0.5rem var(--color-black-first);
+}
+
+.card__barra{
+    width: 30.5rem;
+    height: 3rem;
+    background-color: var(--color-white);
+    border: var(--space-xs) solid var(--color-black-first);
+}
+
+.card__progresso{
+    width: 75%;
+    height: 100%;
+    background-color: var(--color-secondary);
+}
