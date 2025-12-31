@@ -6,6 +6,13 @@
 .flex-align{align-items: center;}
 .flex-center{justify-content: center; align-items: center;}
 .gap-md{gap: 1.8rem}
+.gap-lg { gap: var(--space-lg);}
+
+.pb-md { padding-bottom: var(--space-md);}
+.pt-md { padding-top: var(--space-md);}
+.px-md { padding-top: var(--space-md); padding-bottom: var(--space-md);}
+
+.bg-black {background: var(--color-bg-footer-icon);}
 
 .padding-lateral-md{padding: 0 1.8rem;}
 .padding-bottom-md{padding-bottom: var(--space-md);}
@@ -24,6 +31,12 @@
     text-align: center;
     font-size: var(--font-md);
     box-shadow: 0.4rem 0.5rem var(--color-black-first);
+    transition: transform 200ms linear, opacity 200ms linear;
+}
+
+.btn-base:hover{
+    transform: scale(1.08);
+    opacity: 0.8;
 }
 
 .card__barra{
@@ -37,4 +50,10 @@
     width: 75%;
     height: 100%;
     background-color: var(--color-secondary);
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: var(--space-xxl);
 }
